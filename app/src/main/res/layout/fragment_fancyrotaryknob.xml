@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text=""
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:id="@+id/status"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <TextView
+        android:text="Are You A Robot?"
+        android:textSize="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textview"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <com.androidchatapp.FancyRotaryKnobView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:id="@+id/fancyRotaryKnobView"/>
+    <TextView
+        android:text="Rotate The Knob To The Right To Unlock"
+        android:textSize="30dp"
+        android:textColor="@color/colorHint"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

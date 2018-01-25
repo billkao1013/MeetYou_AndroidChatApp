@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MeetYou</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="title_logo">NATIONAL GEOGRAPHIC</string>
+    <string name="btn_skip_intro">Skip</string>
+    <string name="action_settings">Settings</string>
+    <string name="google_map1">Simple GoogleMap Activity</string>
+    <string name="youtube1">Youtube Activity1</string>
+    <string name="youtube2">Youtube Activity2</string>
+    <string name="youtube3">Youtube App</string>
+    <string name="google_map2">Current Location Activity</string>
+
+    <string name="google_map3">Search Nearby Activity</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDcLxva81tOYWLtyA0-ab2_G-crlhm44Bs</string>
+    <string name="google_places_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBqz84894fZGMchu5aQ4l_lJDb6P9adSvI</string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="video_code">um6DMjCJV2Y</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+</resources>

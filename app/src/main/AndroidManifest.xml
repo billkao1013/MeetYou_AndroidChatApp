@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidchatapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main_activity" />
+        <activity android:name=".Register" />
+        <activity android:name=".Users" />
+        <activity android:name=".Chat" />
+        <activity android:name=".Contact_ViewPager"></activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAA2AGThhMOgIyXiBkqhshl1iV_ShDWZfw" />
+
+        <activity android:name=".Youtube1Activity" />
+        <activity android:name=".YouTubeActivity" />
+        <activity android:name=".Knob_Unlock_Activity"></activity>
+        <activity android:name=".Chat_Activity"></activity>
+
+    </application>
+
+</manifest>

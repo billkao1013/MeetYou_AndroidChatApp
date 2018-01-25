@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mina.eleventh.YouTubeActivity">
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- You could put anything here -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Here is our app demo video
+Meet you is basically a  chat app to let people chat with text message, share photos and share their current location. There are millions of app in today’s google play store. However, the most important and needed function of a phone is to connect people in a faster and simple way. For me, the  App I use  most in my daily life is the chat app. What’s app, Wechat, Line, Kakao talk, facebook messenger are the most popular chat app which have millions or billions user. The purpose of building this app is to learn the basic chat technique and feature in these app and maybe one day we can work in one of these company to help them improve the features. The Meet You app can also let explore people around you and let both of you  to choose to become friend or not."
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="play"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pause"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/defaultstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="default"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/minimalstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="minimal"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/chromelessstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chromeless"
+        android:visibility="invisible" />
+</LinearLayout>

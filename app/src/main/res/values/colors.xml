@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34363c</color>
+    <color name="colorPrimaryDark">#ff6779</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorchatbackground">#141414</color>
+    <color name="colortemp1">#F6F6F6</color>
+    <color name="colortemp2">#FFFFFF</color>
+    <color name="shadow">#555555</color>
+    <color name="title">#777777</color>
+    <color name="colorHint">#d2c9c9</color>
+</resources>
